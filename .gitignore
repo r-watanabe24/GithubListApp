@@ -1,0 +1,83 @@
+*.iml
+.gradle/
+build/
+captures/
+.idea/
+local.properties
+.DS_Store
+*.log
+*.hprof
+
+# Gradle
+**/build/
+**/out/
+!gradle-wrapper.jar
+
+# IDE
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/libraries
+.idea/caches
+.idea/modules.xml
+.idea/assetWizardSettings.xml
+.idea/navEditor.xml
+.idea/other.xml
+.idea/shelf/
+.idea/httpRequests/
+
+# OS
+Thumbs.db
+ehthumbs.db
+Icon?
+*.swp
+*.swo
+
+# Keystore / Secrets
+*.jks
+*.keystore
+*.pem
+*.p12
+*.key
+*.crt
+secrets.properties
+.env
+*.keystore.properties
+
+# Firebase / Google Services
+google-services.json
+GoogleService-Info.plist
+
+# Misc
+*.apk
+*.aab
+*.aar
+*.ap_
+*.dex
+*.class
+*.so
+*.jar
+*.war
+*.zip
+*.7z
+*.orig
+
+# Kotlin / KAPT
+**/build/tmp/kapt3/
+**/build/intermediates/
+
+# Jetpack Compose
+.compose-cache/
+
+# Hilt
+**/hilt_aggregated_deps/
+**/generated/source/kapt/
+**/generated/source/kaptKotlin/
+
+# Test / Reports
+test-results/
+reports/
+
+# Native Build
+.externalNativeBuild/
+.cxx/
