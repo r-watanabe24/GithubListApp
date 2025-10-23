@@ -3,7 +3,7 @@ package com.example.githublistapp
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.commit
-import com.example.githublistapp.screens.userlistscreen.UserListFragment
+import com.example.githublistapp.screens.userlistscreen.views.UserListFragment
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

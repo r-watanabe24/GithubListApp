@@ -1,4 +1,4 @@
-package com.example.githublistapp.screens.userlistscreen
+package com.example.githublistapp.repositories
 
 import com.example.githublistapp.datasource.api.UserRemoteDataSource
 import javax.inject.Inject
@@ -6,13 +6,6 @@ import javax.inject.Inject
 interface UserRepositoryProtocol {
     suspend fun fetchUsers(since: Long, perPage: Int): List<UserEntity>
 }
-
-data class UserEntity(
-    val id: Long,
-    val name: String,
-    val avatar: String,
-    val url: String
-)
 
 class UserRepositoryImpl @Inject constructor(
     private val remote: UserRemoteDataSource

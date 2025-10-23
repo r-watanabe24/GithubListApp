@@ -1,7 +1,7 @@
 package com.example.githublistapp.di
 
-import com.example.githublistapp.screens.userlistscreen.UserRepositoryImpl
-import com.example.githublistapp.screens.userlistscreen.UserRepositoryProtocol
+import com.example.githublistapp.repositories.UserRepositoryImpl
+import com.example.githublistapp.repositories.UserRepositoryProtocol
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
