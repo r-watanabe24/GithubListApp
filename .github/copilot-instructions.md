@@ -84,7 +84,6 @@ com.example.app/
 - 変数名、メソッド名
   - 命名は役割と意味がわかるようにすること
   - メソッド名は動詞系にし、コールバックは先頭に「on」「did」「will」などをつけること
-  - クラス、ファイル名はUpperPascalCase、その他はlowerCamelCaseにすること
 
 ### 禁止事項
 - ViewがRepository/DataSourceを直接参照 
